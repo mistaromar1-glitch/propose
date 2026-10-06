@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For QUEEN - From MISTER OMAR</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="bgMusic" loop><source src="song.mp3" type="audio/mp3"></audio>
+
+<div class="bg-animation">
+  <span>🌹</span><span>❤️</span><span>🌹</span><span>💖</span><span>🌹</span>
+  <span>💕</span><span>🌹</span><span>❤️</span><span>🌹</span><span>💖</span>
+</div>
+
+<div class="floating-quote" id="quote"></div>
+<div id="confetti"></div>
+
+<div class="container" id="main">
+  <div class="rose">🌹</div>
+  <div class="photo-box">
+    <div class="img-wrap"><img src="your_photo.jpg" class="profile"><p>Me</p></div>
+    <div class="img-wrap"><img src="neha_photo.jpg" class="profile neha"><p>You</p></div>
+  </div>
+  <h1>QUEEN</h1>
+  <p class="main-text">আমি ধ্বংস, তুমি পবিত্র। <br>এতো অমিলের পরেও... <br>পাবো কি তোমায়?</p>
+  <div class="btns">
+    <button id="yesBtn">হ্যাঁ</button>
+    <button id="noBtn">না</button>
+  </div>
+  <p class="footer">From: MISTER OMAR 👑</p>
+</div>
+
+<div class="container hidden" id="yesScreen">
+  <div class="rose">🌹</div>
+  <h1 class="yes-msg">জানি তুমি হ্যাঁ বলবেই 🖤</h1>
+  <div class="letter-box"><p id="loveLetter"></p></div>
+  <div id="questionBox" class="hidden">
+    <h2>আর 12 টা প্রশ্ন 👇</h2>
+    <p id="qText"></p>
+    <input type="text" id="qInput" placeholder="আপনার উত্তর...">
+    <button id="qNext">পরেরটা</button>
+  </div>
+  <p class="footer">From: MISTER OMAR 👑</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
